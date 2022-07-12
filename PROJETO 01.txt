@@ -1,6 +1,7 @@
 <<<<<QUESTÃO>>>>>
 
-Aristóteles, Sócrates e Platão estavam disputando uma competição de perguntas nas disciplinas de Física, Matemática e Química. Cada um obteve um primeiro lugar, um segundo lugar e um terceiro lugar.
+Aristóteles, Sócrates e Platão estavam disputando uma competição de perguntas nas disciplinas de Física, Matemática e Química.
+Cada um obteve um primeiro lugar, um segundo lugar e um terceiro lugar.
 
 Sabendo que: 
 - Aristóteles não ficou em primeiro em Química; 
