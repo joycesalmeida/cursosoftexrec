@@ -1,0 +1,20 @@
+<<<<<Questão>>>>>
+
+Em uma sala de aula, há vinte e cinco alunos.
+Entre eles, existem os grupos dos que gostam de Português (P) e os que gostam de Matemática (M).
+Eles são divididos conforme a ilustração 1 em anexo.
+
+Depois de um tempo, chegaram mais onze alunos nessa turma e o professor organizou-a conforme a ilustração 2 em anexo.
+
+No entanto, o professor se ausentou da sala por cinco minutos e, ao voltar, percebeu que um aluno que gosta de uma das disciplinas havia trocado de lugar com alguém que prefere a outra, e a turma ficou organizada conforme a ilustração 3 em anexo.
+
+Sabendo que o professor tem dificuldade de memorizar, informe como ele descobriu a cadeira em que houve a troca de alunos e qual a disciplina de cada um. 
+
+<<<<<RESPOSTA>>>>>
+
+Inicialmente observando a alteração nas posições das cadeiras, é perceptivel que na ilustração 3, houve apenas uma cadeira alterada.
+É uma sala de aula de 36 alunos ao total, e entre eles existem os grupos que gostam de Português e os que gostam de Mátemática.
+Foi dito que ocorreu uma troca de cadeira entre 2 alunos, um que gosta de uma matéria e outro que prefere a outra. No caso pela lógica teria que haver alteração em duas (2) cadeiras, a que é P virar M e a que era M virar P.
+Mas a única alteração visível é apenas 1 cadeira, que fica localizada na linha 5 da 5ª coluna, que na ilustração 2 era M e agora na ilustração 3 alterou para P.
+Então concluo que há um erro na distribuição dos alunos nas cadeiras.
+Ou possa ser que um dos alunos que fez a troca goste de ambas as disciplinas, não alterando assim a marcação do seu novo local.
