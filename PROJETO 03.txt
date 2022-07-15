@@ -15,18 +15,36 @@ No algoritmo, descreva como será:
 
 <<<<<RESPOSTA>>>>>
 
-NOME: (VARIÁVEL TIPO STRING)
-CPF: (VARIÁVEL TIPO FLOAT)
-RG: (VARIÁVEL TIPO FLOAT)
-ALTURA: (VARIÁVEL TIPO STRING)
-ENDEREÇO: (VARIÁVEL TIPO STRING)
+algoritmo "cadastro_pessoal"
+
+var
+
+nome : caracter
+cpf : inteiro
+rg : inteiro
+altura : real
+endereco : caracter
+
+inicio
+nome <- "Nome: José Almeida da Silva"
+cpf <-  "CPF: 12345678900"
+rg <- "RG: 9517530"
+altura <- "Altura: 1,78"
+endereco <- "Endereço: Rua A, 380 – Centro – Recife/PE"
+
+escreval (nome)
+escreval (cpf)
+escreval (rg)
+escreval (altura)
+escreval (endereco)
+
+fimalgoritmo
 
 
-1. INICIO DO ALGORITIMO
-2. DECLARA AS VARIÁVEIS
-3. ARMAZENA AS VARIÁVEIS
-4. VERIFICA SE TODOS OS CAMPOS ESTÃO PREENCHIDOS
-5. CASO FALTE ALGUM CAMPO, EXIBE UMA MENSAGEM INFORMANDO PARA O PREENCHIMENTO CORRETO
-6. ESTANDO TODOS OS CAMPOS PREENCHIDOS, ENVIA OS DADOS PARA O BANCO DE DADOS.
-7. EXIBE UMA MENSAGEM INFORMANDO QUE A INSCRIÇÃO FOI CONCLUIDA COM SUCESSO
-8. FIM DO ALGORITIMO
+<<<<<Exemplo de Resultado>>>>>
+
+Nome: José Almeida da Silva
+CPF: 12345678900
+RG: 9517530
+Altura: 1,78
+Endereço: Rua A, 380 – Centro – Recife/PE
