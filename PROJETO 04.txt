@@ -1,0 +1,99 @@
+<<<<<QUESTÃO>>>>>
+
+Elabore um algoritmo que representa um cadastro. Ele deve ler os seguintes dados fornecidos pelo usuário:
+
+- Nome
+- Endereço
+- Cidade
+- CPF
+- RG
+- Idade
+- Nome do pai
+- Nome da mãe
+- Peso
+- Renda bruta
+
+Apresente as informações solicitadas no final do cadastro.
+
+
+<<<<<RESPOSTA>>>>>
+
+algoritmo "cadastro"
+// Função: cadastrar pessoas para uma determinada estatistica
+// Autor(a): Joyce Silva de Almeida
+// Curso: SOFTEX - Back-End - UPE/Garanhuns-PE
+// Data: 15-07-2022
+
+// Seção de Declarações
+var
+	nome, endereco, cidade, rg, nome_do_pai, nome_da_mae : caracter
+	cpf, idade : inteiro
+	peso, renda_bruta : real
+
+inicio
+// Seção de Comandos
+
+	escreva ("Digite o seu nome: ")
+	leia (nome)
+
+	escreva ("Endereço: ")
+	leia (endereco)
+
+	escreva ("Cidade: ")
+	leia (cidade)
+
+	escreva ("CPF: ")
+	leia (cpf)
+
+	escreva ("RG: ")
+	leia (rg)
+
+	escreva ("Idade: ")
+	leia (idade)
+
+	escreva ("Nome do Pai): ")
+	leia (nome_do_pai)
+
+	escreva ("Nome da Mãe: ")
+	leia (nome_da_mae)
+
+	escreva ("Peso: ")
+	leia (peso)
+
+	escreva ("Renda Bruta: ")
+	leia (renda_bruta)
+
+// Seção de Saída
+
+	escreval ("Nome: " , nome)
+	escreval ("End.: " , endereco)
+	escreval ("Cidade: " , cidade)
+	escreval ("CPF: " , cpf)
+	escreval ("RG: " , rg)
+	escreval ("Idade: " , idade , "anos")
+	escreval ("Pai: " , nome_do_pai)
+	escreval ("Mãe: " , nome_da_mae)
+	escreval ("Peso: ", peso , "Kg")
+	escreval ("Renda Bruta: R$" , renda_bruta)
+
+fimalgoritmo
+
+
+
+<<<<<Exemplo de Resultado>>>>>
+
+// Inicialmente pede para o usuário digitar os dados e o algoritmo guarda eles
+// Após todos os dados digitados, será exibido na tela desta forma abaixo:
+
+Nome: Joyce Almeida
+End.: Rua dos Bobos, nº 0
+Cidade: Garanhuns
+CPF: 12345678909
+RG:1234567 SDS/PE
+Idade: 32 anos
+Pai: Joel
+Mãe: Cenir
+Peso: 95 Kg
+Renda Bruta: R$ 1.000,00
+
+//Fim do Algoritimo
