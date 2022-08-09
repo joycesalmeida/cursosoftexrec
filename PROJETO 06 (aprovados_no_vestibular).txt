@@ -1,0 +1,161 @@
+<<<<<QUESTÃO>>>>>
+
+Após uma prova de vestibular, uma escola quer identificar quantos dos seus alunos foram aprovados em cada turma de formandos. Ela quer saber qual aluno teve a maior nota e de qual turma ele é. Nessa escola, há quatro turmas (A, B, C e D) com vinte e cinco alunos cada.
+Elabore um algoritmo que solicite o nome e a nota do vestibular aos alunos. Depois, informe quantos deles foram aprovados, de que turma são, qual a maior nota em cada turma e qual aluno teve a maior nota de todas.
+Para que o aluno seja aprovado no vestibular, ele deverá obter nota maior ou igual a 7.
+ATENÇÃO: As notas por turma não podem se repetir.
+
+<<<<<RESPOSTA>>>>>
+
+
+// Função: Classificação do Aluno
+// Autor(a): Joyce Silva de Almeida
+// Curso: SOFTEX - Back-End - UPE/Garanhuns-PE
+// Data: 09-07-2022
+
+
+Algoritmo - APROVADOS NO VESTIBULAR
+
+quantAprovadosTurmaA = 0
+quantAprovadosTurmaB = 0
+quantAprovadosTurmaC = 0
+quantAprovadosTurmaD = 0
+nota = 0
+maiorNotaTurmaA = 0
+maiorNotaTurmaB = 0
+maiorNotaTurmaC = 0
+maiorNotaTurmaD = 0
+maiorNotaGeral = 0
+turma = “”
+turmaA = “A”
+turmaB = “B”
+turmaC = “C”
+turmaD = “D”
+turmaMaiorNotaGeral” = “”
+aluno = “”
+alunoTurmaA = “”
+alunoTurmaB = “”
+alunoTurmaC = “”
+alunoTurmaD = “”
+alunoMaiorNotaGeral = “”
+t = 0
+i = 0
+
+para t =0 até t<=3 faca
+
+escreva (“Digite a turma do aluno (opções A, B, C ou D): ”)
+leia (turma)
+
+	para i = 0 até i < = 24 faca
+		
+		se turma = A faca
+			escreval (“Informe o nome do aluno: “)
+			leia (aluno)
+			escreval (“Informe a nota do aluno: “)
+			leia (nota)
+			se nota >= 7 entao
+				quantAprovadosTurmaA = quantAprovadosTurmaA + 1
+			fimse
+			se nota > maiorNotaTurmaA então   
+				maiorNotaTurmaA = nota 
+				alunoTurmaA= aluno
+			fimse
+		fimse
+		
+		se turma = B faca
+			escreval (“Informe o nome do aluno: “)
+			leia (aluno)
+			escreval (“Informe a nota do aluno: “)
+			leia (nota)
+			se nota >= 7 entao
+				quantAprovadosTurmaB = quantAprovadosTurmaB + 1
+			fimse
+			se nota > maiorNotaTurmaB então    
+				maiorNotaTurmaB = nota 
+				alunoTurmaB= aluno
+			fimse
+		fimse
+
+		se turma = C faca
+			escreval (“Informe o nome do aluno: “)
+			leia (aluno)
+			escreval (“Informe a nota do aluno: “)
+			leia (nota)
+			se nota >= 7 entao
+				quantAprovadosTurmaC = quantAprovadosTurmaC + 1
+			fimse
+			se nota > maiorNotaTurmaC então    
+				maiorNotaTurmaC = nota
+				alunoTurmaC= aluno
+			fimse
+		fimse
+
+		se turma = D faca
+			escreval (“Informe o nome do aluno: “)
+			leia (aluno)
+			escreval (“Informe a nota do aluno: “)
+			leia (nota)
+			se nota >= 7 entao
+				quantAprovadosTurmaD= quantAprovadosTurmaD + 1
+			fimse
+			se nota > maiorNotaTurmaD então    
+				maiorNotaTurmaD = nota        
+				alunoTurmaD= aluno
+			fimse	
+		fimse
+	    fimpara
+
+se maiorNotaTurmaA > maiorNotaTurmaB e maiorNotaTurmaA > maiorNotaTurmaC e maiorNotaTurmaA > maiorNotaTurmaD então
+	maiorNotaGeral = maiorNotaTurmaA
+	alunoMaiorNotaGeral = alunoTurmaA
+	turmaMaiorNotaGeral = turmaA
+senão
+	se maiorNotaTurmaB > maiorNotaTurmaC e maiorNotaTurmaB >     maiorNotaTurmaD então 
+		maiorNotaGeral = maiorNotaTurmaB
+		alunoMaiorNotaGeral = alunoTurmaB
+		turmaMaiorNotaGeral = turmaB
+	senão
+		se maiorNotaTurmaC > maiorNotaTurmaD
+			maiorNotaGeral = maiorNotaTurmaC
+			alunoMaiorNotaGeral = alunoTurmaC
+			turmaMaiorNotaGeral = turmaC
+		senão
+			maiorNotaGeral = maiorNotaTurmaD
+			alunoMaiorNotaGeral = alunoTurmaD
+			turmaMaiorNotaGeral = turmaD
+		fimse
+	fimse			
+fimse
+fimpara
+
+escreval (“O total de alunos aprovados no vestibular da Turma A:  “,quantAprovadosTurmaA)
+escreval (“A maior nota do vestibular da turma A foi:  “,maiorNotaTurmaA)
+
+escreval (“O total de alunos aprovados no vestibular  da Turma B:  “,quantAprovadosTurmaB)
+escreval (“A maior nota do vestibular da turma B foi:  “,maiorNotaTurmaB)
+
+escreval (“O total de alunos aprovados no vestibular  da Turma C:  “,quantAprovadosTurmaC)
+escreval (“A maior nota do vestibular da turma C foi:  “,maiorNotaTurmaC)
+
+escreval (“O total de alunos aprovados no vestibular  da Turma D:  “,quantAprovadosTurmaD)
+escreval (“A maior nota do vestibular da turma D foi:  “,maiorNotaTurmaD)
+
+escreval (“O aluno que obteve a maior nota no geral de “, maiorNotaGeral, “foi: ”,alunoMaiorNotaGeral, “da turma: “ turmaMaiorNotaGeral, )
+                  
+
+
+
+
+
+                     
+				   	
+
+                    
+
+
+
+
+
+  
+
+
