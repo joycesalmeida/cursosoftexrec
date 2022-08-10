@@ -14,7 +14,7 @@ E: Veículos com quatro rodas ou mais e com mais de 6000 kg.
 
 <<<<<RESPOSTA>>>>>
 
-// Função: Classificação do Aluno
+// Função: Categoria de Habilitação
 // Autor(a): Joyce Silva de Almeida
 // Curso: SOFTEX - Back-End - UPE/Garanhuns-PE
 // Data: 08-08-2022
