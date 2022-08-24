@@ -6,7 +6,7 @@ public class Aluno implements java.io.Serializable {
     public transient int id;
     public int ano;
     public void verificaEmail() {
-        System.ou.printIn("Checagem para: " + nome + "" + curso);
+        System.out.printIn("Checagem para: " + nome + "" + curso);
     }
 }
 
@@ -17,14 +17,14 @@ public class Serializa {
     /**
      * @param args the command line arguments
      */
-    public static void public static void main(String[] args) {
+    public static void main(String[] args) {
         Aluno e = new Aluno();
         e.nome = "Joyce Almeida";
         e.curso = "Programação Back-End";
         e.id = 7872526;
         e.ano = 2022;
         try {
-           FileOutputStream fileOut = new FileOutputStream("C:\Users\Aluno\Desktop\Joyce\matricula.txt");
+           FileOutputStream fileOut = new FileOutputStream("C:\\Users\\Aluno\\Desktop\\Joyce\\matricula.txt");
            ObjectOutputStream out = new ObjectOutputStream(fileOut);
            out.writeObject(e);
            out.close();
@@ -44,7 +44,7 @@ public class Desserializando
     {
         Aluno e;
         try{
-            try(FileInputStream fileIn = new FileInputStream("C:\Users\Aluno\Desktop\Joyce\matricula.ser");
+            try(FileInputStream fileIn = new FileInputStream("C:\\Users\\Aluno\\Desktop\\Joyce\\matricula.ser");
                 ObjectinputStream in = new ObjectinputStream(fileIn)){
                     e = (Aluno) in.readObject();
                 }
