@@ -10,6 +10,7 @@ No entanto, o professor se ausentou da sala por cinco minutos e, ao voltar, perc
 
 Sabendo que o professor tem dificuldade de memorizar, informe como ele descobriu a cadeira em que houve a troca de alunos e qual a disciplina de cada um. 
 
+
 <<<<<RESPOSTA>>>>>
 
 Inicialmente observando a alteração nas posições das cadeiras, é perceptivel que na ilustração 3, houve apenas uma cadeira alterada.
