@@ -1,0 +1,18 @@
+<<<<<QUESTÃO>>>>>
+Pesquise sobre padrões de projeto e escolha um para apresentar e descrever o seu funcionamento. Além disso, explique quais as vantagens e desvantagens comparados a outros e mostre suas referências.
+
+<<<<<RESPOSTA>>>>>
+
+Os padrões de projetos tornam mais fácil reutilizar soluções e arquiteturas bem sucedidas para construir softwares orientados a objetos de forma flexível e fácil de manter. 
+O mais importante sobre os padrões é que eles são soluções aprovadas. Cada catálogo inclui apenas padrões que foram considerados úteis por diversos desenvolvedores em vários projetos. Os padrões catalogados também são bem definidos; os autores descrevem cada padrão com muito cuidado e em seu próprio contexto, portanto será fácil aplicar o padrão em suas próprias circunstâncias. Eles também formam um vocabulário comum entre os desenvolvedores.
+Uma rápida leitura dos códigos da VCL (Visual Component Library) do Delphiconstata-se que ela fora construído fazendo uso intensivo dos padrões de projetos. O que é muito bom, pois constata o nível de excelência da ferramenta. Isto devido ao Delphiimplementar completamente as boas práticas da orientação a objetos – OOP, que auxiliam na implementação de projetos reutilizáveis.
+Abstract Factory, A intenção deste é fornecer uma interface para criação de famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.
+A ideia básica é a de oferecer ao usuário (desenvolvedor) a possibilidade de executar uma aplicação sobre diferentes plataformas.
+O padrão Abstract Factory possui os seguintes benefícios e desvantagens:
+
+-Ele isola as classes concretas.
+-Ele torna fácil a troca de famílias de produtos.
+-Ela promove a harmonia entre produtos.
+-É difícil de suportar novos tipos de produtos.
+
+Os padrões possibilitam através de uma linguagem clara e concisa, que os projetistas experientes transfiram os seus conhecimentos aos mais novos em um alto nível de abstração e assim facilitam o desenvolvimento e o reaproveitamento de código.
