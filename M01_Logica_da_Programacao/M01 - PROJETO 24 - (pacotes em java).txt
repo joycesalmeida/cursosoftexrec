@@ -1,0 +1,71 @@
+<<<<<QUESTÃO>>>>>
+
+Crie dois pacotes baseados nas atribuições de uma empresa e inclua classes neles.
+Lembre-se de trabalhar com os padrões Java.
+
+
+<<<<<RESPOSTA>>>>>
+
+// Função: Criação de Pacote em Java
+// Autor(a): Joyce Silva de Almeida
+// Curso: SOFTEX - Back-End - UPE/Garanhuns-PE
+// Data: 23-08-2022
+
+
+
+//Criando o pacote
+package Grafica;
+
+public class TipoPapel {
+	public void papelCouche(){
+		System.out.printIn("Papel especial para folders e panfletos.");
+	}
+{
+
+
+//Criando o diretório do pacote já com essa classe com o comando:
+javac -d . TipoPapel.java
+
+
+//Importando o pacote em outro arquivo, de um outro projeto por exemplo.
+
+import Grafica.TipoPapel;
+
+public class InfoPapel {
+	public static void main(String[] args) {
+	TipoPappel obj = new TipoPapel();
+	obj.papelCouche();
+	}
+}
+
+
+//Adicionando mais uma classe ao pacote
+
+package Grafica;
+
+puclic class Tintas {
+	public String tipoTintas(){
+		String name = "Tintas Sublimáticas.";
+		return name;
+	}
+}
+
+
+
+//Código Final
+
+
+//Também poderia ser -- import Grafica.* -- que aí ele selecionaria todas as classes do pacote.
+import Grafica.TipoPapel;
+import Grafica.Tintas;
+
+public class TipoPapel {
+	publi static void main(String[] args) {
+		TipoPapel obj = new TipoPapel();
+		Tintas obj2 = new Tintas();
+		obj.papelCouche();
+		System.out.printIn(obj2.tipoTintas());
+	}
+}
+
+
