@@ -1,0 +1,74 @@
+<!DOCTYPE <!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sistema de Notas</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/logo_botao.png">
+        
+        <link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		       
+    </head>
+
+    <body>
+        <!-- Sessão do cabeçalho--> 
+        <main>
+            <div class="container_titulo">
+                <img src="img/logo_branca2.png" alt="Logo Joyce Almeida Dev. Jr." id="logo_titulo">
+                <h1 id="titulo">SISTEMAS DE NOTAS</h1>
+            </div>
+        </main>
+        
+        <!-- Sessão dos formulários--> 
+        <section class="formulario">
+            <!--formulário com a média e aprovação ou reprovação do aluno-->
+            <p>Preencha o formulário abaixo para saber a sua média e se está aprovado ou reprovado:</p>
+
+            <div class="situacao">
+                <label for="name">Nota 1: </label><input id="nota1" type="number">
+                <label for="name">Nota 2: </label><input id="nota2" type="number">
+                <label for="name">Nota 3: </label><input id="nota3" type="number">
+                <button id="media-aprovacao" onclick="mediaAluno()">Verificar</button>
+                <p class="aviso">*Preencha apenas com números</p>           
+            </div>
+            
+            <!--formulário com nota mínima necessária para a aprovação do aluno-->
+            <p>Preencha o formulário abaixo para saber qual nota você precisa tirar para ser aprovado:</p>
+
+            <div class="nota-minima">
+                <label for="name">Nota 1: </label><input type="text" id="nota4">
+                <label for="name">Nota 2: </label><input type="text" id="nota5">
+                <button id="media-nota" onclick="mediaNota()">Verificar</button>
+                <p class="aviso">*Preencha apenas com números</p>
+            </div>
+
+        </section>
+
+        </body>
+
+        <script src="script.js"></script>
+    </body>
+
+    <!--sessão do rodapé com as informações do desenvolvedor da página-->
+    <footer>
+
+        <section class='container'>
+            <div class="links">
+                <a href="https://www.instagram.com/joycesilvadealmeida/" target="_blank" rel="noopener noreferrer"><img id="logo_rodape" src="img/logo_branca1.png" alt="Logo Joyce Almeida Dev Jr."></a>
+                <a href="https://github.com/joycesalmeida/" target="_blank" rel="noopener noreferrer"><img id="logo_github" src="img/github_branca.png" alt="Link para o Repositório no GitHub"></a>
+                <a href="http://www.linkedin.com/in/joycesalmeida" target="_blank" rel="noopener noreferrer"><img id="logo_linkedin" src="img/linkedin.png" alt="Link para o Perfil o Linkedin"></a>            
+            </div>
+    
+            <div class="texto_rodape">
+                <p>Desenvolvido por Joyce Almeida • 2022 ©</p><br>
+                <p>• Softex Recife • UPE-Polo Garanhus • Turma Back-End • </p>  
+            </div>
+        </section>
+    
+    </footer>
+
+</html>
