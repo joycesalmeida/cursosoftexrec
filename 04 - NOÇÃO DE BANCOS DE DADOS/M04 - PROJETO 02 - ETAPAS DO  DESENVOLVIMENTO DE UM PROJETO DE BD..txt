@@ -1,0 +1,15 @@
+M04 - PROJETO 02 - ETAPAS DO  DESENVOLVIMENTO DE UM PROJETO DE BD.
+
+O desenvolvimento de um projeto de banco de dados passa por fases que são de grande importância para sua implementação. Descreva as etapas desse processo.
+
+1) Identificação de requisitos: nesta fase, o objetivo é entender as necessidades do usuário e as demandas do negócio. Isso inclui determinar quais dados precisam ser armazenados, como esses dados serão utilizados, quem terá acesso a eles, e como eles serão processados.
+
+2) Projeto conceitual: nesta fase, é criado um modelo conceitual que representa os objetos do negócio e as relações entre eles. Essa fase se concentra na definição das entidades (objetos) e seus relacionamentos, sem considerar as questões técnicas de implementação.
+
+3) Projeto lógico: nesta fase, é criado um modelo lógico que representa a estrutura de dados que será utilizada no banco de dados. O modelo lógico leva em consideração as restrições de integridade e os requisitos de desempenho.
+
+4) Projeto físico: nesta fase, o modelo lógico é implementado em um modelo físico que leva em conta as limitações e recursos do sistema de banco de dados. O projeto físico inclui a definição das tabelas, índices, chaves estrangeiras e outras estruturas.
+
+5) Implementação: nesta fase, o banco de dados é criado e populado com dados. É importante testar e validar o banco de dados para garantir que ele esteja funcionando corretamente e de acordo com os requisitos.
+
+6) Operação e manutenção: depois que o banco de dados está em produção, ele precisa ser mantido e gerenciado. Isso inclui a realização de backups, a otimização de desempenho, a aplicação de atualizações e correções de erros, entre outras tarefas.
