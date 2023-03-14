@@ -1,0 +1,11 @@
+M04 - PROJETO 03 - NORMALIZAÇÃO DE DADOS
+
+A normalização de dados é um processo importante para garantir a integridade dos dados e evitar anomalias no banco de dados. Existem várias formas normais que um banco de dados pode seguir, sendo as mais comuns as três primeiras formas normais (1NF, 2NF e 3NF).
+
+- Primeira Forma Normal (1NF): nesta forma normal, cada coluna de uma tabela deve conter apenas valores atômicos, ou seja, valores que não podem ser divididos em partes menores. Além disso, cada registro deve ter um identificador único, como uma chave primária.
+
+- Segunda Forma Normal (2NF): esta forma normal exige que todas as colunas de uma tabela dependam da chave primária da tabela. Isso significa que não deve haver colunas que dependam de outras colunas da tabela. Se uma tabela não atender a esta forma normal, ela pode ser dividida em duas ou mais tabelas.
+
+- Terceira Forma Normal (3NF): esta forma normal requer que cada coluna de uma tabela dependa apenas da chave primária da tabela ou de outras colunas que não sejam dependentes da chave primária. Isso ajuda a evitar dependências transitivas, onde uma coluna depende de outra que depende da chave primária.
+
+Existem outras formas normais, como a Forma Normal de Boyce-Codd (BCNF) e a Forma Normal de Quarta (4NF), que são menos comuns, mas ainda podem ser úteis em situações específicas. O processo de normalização pode ser trabalhoso, mas é importante para garantir a qualidade e a consistência dos dados em um banco de dados.
