@@ -1,0 +1,11 @@
+M04 - PROJETO 05 - EXEMPLOS DE SGBD
+
+Sistemas de Bancos de Dados Relacionais:
+
+- Oracle, MySQL, Microsoft SQL Server, PostgreSQL, IBM DB2, SQLite
+
+Sistemas de Bancos de Dados Não Relacionais (NoSQL):
+
+- MongoDB, Cassandra, Redis, Couchbase, Amazon DynamoDB, Apache HBase
+
+É importante ressaltar que a escolha entre um SGBD relacional ou não-relacional deve ser feita de acordo com as necessidades específicas do projeto, levando em consideração requisitos de desempenho, escalabilidade, segurança, entre outros fatores.
