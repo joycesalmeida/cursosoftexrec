@@ -1,0 +1,32 @@
+M04 - PROJETO 12 - SENHAS SEGURAS
+
+Uma empresa está sofrendo ataques que impactam diretamente a sua segurança.
+Então, ela precisa atualizar as senhas de todos os seus funcionários.
+Cite pelo menos três métodos para melhorar essas senhas.
+
+Solicitando ao usuário: 
+1- Pelo menos oito caracteres
+2- Ao menos uma letra minúscula e uma letra maiúscula.
+3- Digitos de 0 a 9
+4- Inclua Simbolos (por exemplo !-@-#-$-%)
+
+Criando a Senha:
+Evite:
+
+Escolher uma senha parecida com a senha anterior
+Senhas que contêm nomes ou sobrenome, nomes de usuário, nomes reais ou nomes de empresa etc.
+Palavras escritas de trás para frente
+Sequências (qwerty, abcdef, 12345 etc.)
+Compartilhar sua senha
+Anotar sua senha ou armazená-la próxima ao seu PC ou sistema de login
+Usar a palavra "senha" ou uma semelhante (evite usar números em vez de letras, por exemplo, "Pa55w0rd")
+
+
+
+Tente:
+
+Escolher uma senha da qual você se lembrará
+Alterar sua senha com frequência
+Não usar a mesma senha em várias contas e programas
+Escolher uma senha que você pode aprender a digitar com facilidade sem precisar olhar o teclado
+Transformar frases fáceis de lembrar em um acrônimo
