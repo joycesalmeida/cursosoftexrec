@@ -1,0 +1,21 @@
+M04 - PROJETO 11 - SEGURANÇA DE DADOS
+
+Após uma varredura rápida no sistema da sua empresa,
+foi identificada a necessidade de melhorar a segurança dos dados.
+Por isso, você deve desenvolver um novo banco de dados.
+Explique quais são os pilares da segurança de dados que devem ser seguidos.
+
+
+Inicialmente precisamos delegar entre a equipe de Back a responsabilidade para a
+manutenção de cada pilar e uma equipe para manter a manutenção dos 3 pilares funcionando
+em sintonia.
+
+Integridade: pessoal responsável pelo backup do banco de dados
+Disponibilidade: pessoal responsável pelo acesso 24h aos dados do BD
+Confiabilidade: Equipe de gerência dos dados.
+
+Gerente do setor: Responsável pela gerência e sincronia das 3 equipes do BD.
+
+creio que assim conseguimos distribuir as funções e preservar a segurança
+dos dados do BD. E caso aja alguma nova falha, ser mais fácil de identificar
+o problema e resolver da maneira mais optimizada possivel.
