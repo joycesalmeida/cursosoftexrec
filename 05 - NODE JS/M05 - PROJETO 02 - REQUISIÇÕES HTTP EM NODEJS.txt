@@ -1,0 +1,25 @@
+M05 - REQUISIÇÕES HTTP EM NODEJS
+Sem usar bibliotecas, crie um projeto simples em Node.js que seja capaz de responder requisições HTTP.
+Explique como rodar e testar.
+
+-- CÓDIGO:
+
+const http = require('http');
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Olá, mundo!\n');
+});
+
+server.listen(3000, () => {
+  console.log(`Servidor rodando em http://localhost:3000/`);
+});
+
+
+-- EXECUTANDO E TESTANDO:
+
+Execute o comando node server.js para rodar o servidor.
+Abra um navegador da web e visite http://localhost:3000/. Você deve ver uma mensagem de "Olá, mundo!" na página.
+
+Para testar o servidor, você pode fazer outras requisições HTTP para ele usando um cliente HTTP, como o curl ou o wget no terminal. Por exemplo, execute o comando curl http://localhost:3000/ no terminal e você deverá ver a mesma mensagem de "Olá, mundo!" impressa no terminal.
