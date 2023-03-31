@@ -1,0 +1,18 @@
+M06 - PROJETO 02 - HTTP E WSDL
+Faça um projeto explicando como funcionam os métodos HTTP com exemplos de requisições, sua utilização e em qual momento cada um dos métodos devem ser utilizados. 
+Além disso, descreva o que é WSDL, seu significado e sua função.
+
+
+RESPOSTA:
+
+Os métodos HTTP são utilizados para definir a ação que deve ser executada em um recurso específico. Eles são amplamente utilizados em APIs RESTful para realizar operações em recursos da aplicação. Aqui estão alguns dos métodos HTTP mais comuns:
+
+GET: utilizado para recuperar informações de um recurso. Por exemplo, uma requisição GET para a URL "https://api.example.com/users/1" irá retornar informações do usuário com o ID 1.
+POST: utilizado para criar um novo recurso. Por exemplo, uma requisição POST para a URL "https://api.example.com/users" com os parâmetros de um novo usuário irá criar um novo usuário no sistema.
+PUT: utilizado para atualizar um recurso existente. Por exemplo, uma requisição PUT para a URL "https://api.example.com/users/1" com os parâmetros atualizados para o usuário com o ID 1 irá atualizar as informações desse usuário.
+DELETE: utilizado para excluir um recurso. Por exemplo, uma requisição DELETE para a URL "https://api.example.com/users/1" irá excluir o usuário com o ID 1.
+Além disso, existem outros métodos HTTP menos comuns, como PATCH, OPTIONS, HEAD, CONNECT e TRACE.
+
+A escolha do método HTTP adequado depende do tipo de operação que se deseja realizar no recurso. Em geral, os métodos GET e DELETE são usados para operações que não mudam o estado do servidor ou do recurso, enquanto que os métodos POST e PUT são usados para operações que criam ou alteram o estado do servidor ou do recurso.
+
+WSDL é a sigla para Web Services Description Language (Linguagem de Descrição de Serviços Web). É um formato XML utilizado para descrever serviços web e suas interfaces, incluindo informações sobre as operações disponíveis, os parâmetros necessários para cada operação e os tipos de dados que são usados. O WSDL é utilizado para facilitar a comunicação entre serviços web, permitindo que um serviço possa ser facilmente consumido por outro serviço ou por um cliente. Ele é um componente fundamental da arquitetura de serviços web e é amplamente utilizado em tecnologias como SOAP e XML-RPC.
