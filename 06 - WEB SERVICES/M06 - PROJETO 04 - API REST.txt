@@ -1,0 +1,15 @@
+M06 - PROJETO 04 - API REST
+Explique quais são as seis regras de uma API REST.
+
+
+RESPOSTA:
+As seis regras de uma API REST, também conhecidas como os seis princípios da arquitetura REST, são um conjunto de diretrizes que devem ser seguidas para que uma API seja considerada RESTful. São elas:
+
+1 - Arquitetura cliente-servidor: essa regra estabelece a separação de responsabilidades entre o cliente e o servidor, ou seja, o cliente envia as requisições para o servidor e este retorna as respostas correspondentes.
+2- Comunicação stateless: cada requisição feita pelo cliente deve conter todas as informações necessárias para o servidor entender e processar a requisição, sem depender de um estado anterior.
+3 - Cache: o servidor deve enviar informações que permitam ao cliente armazenar em cache as respostas recebidas. Isso permite que o cliente possa reutilizar as respostas sem precisar enviar novas requisições ao servidor.
+4 - Interface uniforme: a API deve ter uma interface clara e consistente, com recursos bem definidos e identificáveis por meio de URLs.
+5 - Sistema em camadas: a API deve ser composta por camadas, permitindo a escalabilidade e a separação de preocupações entre as diferentes camadas.
+6 - Code on demand (opcional): o servidor pode enviar código executável para o cliente, como scripts em JavaScript, permitindo que o cliente execute funcionalidades específicas.
+
+Seguir essas seis regras é importante para garantir a interoperabilidade entre diferentes sistemas e clientes, permitindo que eles possam se comunicar de forma padronizada e consistente. Além disso, as APIs RESTful são consideradas mais escaláveis, flexíveis e fáceis de evoluir do que outras arquiteturas de APIs.
