@@ -1,0 +1,60 @@
+// Difinindo o Contrato do serviço
+
+public interface CustomerService {
+  public CustomerInfo getCustomerInfo(String name);
+}
+
+
+// Implementando o serviço
+
+public class CustomerServiceImpl implements CustomerService {
+  public CustomerInfo getCustomerInfo(String name) {
+    // Aqui, é possível adicionar a lógica para buscar as informações do cliente no banco de dados, por exemplo.
+    // Neste exemplo, vamos simplesmente retornar informações fixas:
+    CustomerInfo customer = new CustomerInfo();
+    customer.setName("João da Silva");
+    customer.setAddress("Rua A, 123");
+    customer.setPhone("(11) 1234-5678");
+    return customer;
+  }
+}
+
+// criando uma mensagem SOAP em PHP
+
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://example.com/customer" targetNamespace="http://example.com/customer">
+  <wsdl:types>
+    <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://example.com/customer">
+      <xs:element name="getCustomerInfoRequest">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getCustomerInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="customer" type="tns:customerInfo"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="customerInfo">
+        <xs:sequence>
+          <xs:element name="name" type="xs:string"/>
+          <xs:element name="address" type="xs:string"/>
+          <xs:element name="phone" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getCustomerInfoRequest">
+    <wsdl:part name="parameters" element="tns:getCustomerInfoRequest"/>
+  </wsdl:message>
+  <wsdl:message name="getCustomerInfoResponse">
+    <wsdl:part name="parameters" element="tns:getCustomerInfoResponse"/>
+  </wsdl:message>
+  <wsdl:portType name="CustomerService">
+    <wsdl
+
+
+
