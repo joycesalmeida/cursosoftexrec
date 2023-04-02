@@ -1,0 +1,37 @@
+M06 - PROJETO 05 - OPERAÇÕES CRUD
+Demonstre como fazer as quatro operações de CRUD e suas rotas para obter
+o recurso de um livro que está no estoque de uma livraria.
+Um livro possui informações como nome, autor e ISBN.
+
+RESPOSTA:
+
+Para realizar as quatro operações de CRUD (Create, Read, Update e Delete) em relação aos recursos de um livro em um estoque de livraria, podemos definir as seguintes rotas:
+
+1 - Rota para criar um livro:
+
+-Método HTTP: POST
+-Endpoint: /livros
+-Corpo da requisição: um objeto JSON contendo as informações do livro, como nome, autor e ISBN
+-Resposta da requisição: um objeto JSON contendo as informações do livro recém-criado, incluindo um identificador único (id)
+
+2 - Rota para obter informações de um livro:
+
+-Método HTTP: GET
+-Endpoint: /livros/{id}
+-Parâmetro da requisição: o identificador único do livro que se deseja obter informações
+-Resposta da requisição: um objeto JSON contendo as informações do livro correspondente ao identificador único informado
+
+3 - Rota para atualizar as informações de um livro:
+
+-Método HTTP: PUT
+-Endpoint: /livros/{id}
+-Parâmetro da requisição: o identificador único do livro que se deseja atualizar as informações
+-Corpo da requisição: um objeto JSON contendo as informações atualizadas do livro, como nome, autor e ISBN
+-Resposta da requisição: um objeto JSON contendo as informações atualizadas do livro correspondente ao identificador único informado
+
+4 - Rota para excluir um livro:
+
+-Método HTTP: DELETE
+-Endpoint: /livros/{id}
+-Parâmetro da requisição: o identificador único do livro que se deseja excluir
+-Resposta da requisição: um objeto JSON contendo uma mensagem de confirmação da exclusão do livro
